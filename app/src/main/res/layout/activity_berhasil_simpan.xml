@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    NIM             : 10118069-->
+<!--    Nama            : Muhamad Rizqi Ramdani-->
+<!--    Kelas           : IF2-->
+<!--    TGl Pengerjaan  : 5 juni 2021-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BerhasilSimpanActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/frame"
+            android:id="@+id/frame"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berhasil Disimpan"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/berhasil"
+            android:layout_below="@+id/frame"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto"
+            android:textFontWeight="700"
+            android:lineHeight="18.75sp"/>
+        <TextView
+            android:layout_width="242dp"
+            android:layout_height="54dp"
+            android:text="Terima kasih laporan anda mambantu kami dalam melakukan penanganan kasus secara tepat."
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/berhasil"
+            android:id="@+id/text"
+            android:textSize="12sp"
+            android:fontFamily="@font/roboto"
+            android:textFontWeight="400"
+            android:lineHeight="18sp"
+            android:textAlignment="center"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btngreen"
+            android:layout_below="@+id/text"
+            android:id="@+id/btngreen3"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
